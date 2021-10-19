@@ -13,7 +13,6 @@ public class Position {
     int x,y;
     int rotation;
     int frontDir;
-    int anotherNumber;
     
     //1 = Right, -1 = Left
     
