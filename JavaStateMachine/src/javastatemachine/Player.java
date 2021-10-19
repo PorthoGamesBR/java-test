@@ -13,6 +13,6 @@ public class Player {
     public Position playerPos;
     
     public Player(){
-        playerPos = new Position(0,0);
+       playerPos = new Position(0,0);
     }
 }
