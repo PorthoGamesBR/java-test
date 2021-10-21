@@ -9,10 +9,10 @@ package javastatemachine;
  *
  * @author User
  */
-public class Player {
-    public Position playerPos;
+public class Player extends Entity {
     
     public Player(){
-       playerPos = new Position(0,0);
+       super(new Position(0,0));
+       
     }
 }
